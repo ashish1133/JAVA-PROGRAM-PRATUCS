@@ -4,7 +4,7 @@ class testing {
         System.out.println("hello");
         System.out.println("thank you");
 
-        System.out.println("this is a testing side: ");
+        System.out.println("this is a testing side:");
 
     }
 }
