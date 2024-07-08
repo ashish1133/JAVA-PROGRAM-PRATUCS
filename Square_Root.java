@@ -9,7 +9,7 @@ public class Square_Root {
 
         Scanner o = new Scanner(System.in);
 
-        System.out.println("Enter a number to find the number of square root: ");
+        System.out.println("Enter a number to find the number of square root:");
 
 
 
