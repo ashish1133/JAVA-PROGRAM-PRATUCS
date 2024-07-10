@@ -14,7 +14,7 @@ public class finding_vowels {
     }
 
     public static void main(String[] args) {
-        String str="ashish";
+        String str="ashishashok";
         System.out.println(counter(str));
     }
 }
