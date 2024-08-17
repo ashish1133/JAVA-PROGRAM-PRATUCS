@@ -4,6 +4,6 @@ public class hello_world {
 
         System.out.println("Hello World! ");
         System.out.println("Welcome to Java");
-        System.out.println("Learn Java");
+
     }
 }
