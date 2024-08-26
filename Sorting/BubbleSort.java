@@ -1,3 +1,5 @@
+package Sorting;
+
 public class BubbleSort {
     static void bubblesort(int[]arr,int n){
         int i,j,temp;
