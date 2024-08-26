@@ -1,3 +1,5 @@
+package Arrays;
+
 public class Decimal_to_BinaryDigit {
     public static void main(String[] args) {
 

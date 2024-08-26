@@ -1,3 +1,5 @@
+package Arrays;
+
 public class Find_String_in_Array {
     public static void main(String[] args) {
 
