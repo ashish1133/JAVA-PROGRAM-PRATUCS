@@ -1,3 +1,5 @@
+package Tree;
+
 class Node{
     int key;
     Node left,right;
@@ -27,7 +29,7 @@ class BST{
 
         // Creating a hardcoded tree for keeping
         // the length of the code small. We need
-        // to make sure that BST properties are
+        // to make sure that Tree.BST properties are
         // maintained if we try some other cases.
         Node root = new Node(50);
         root.left = new Node(30);

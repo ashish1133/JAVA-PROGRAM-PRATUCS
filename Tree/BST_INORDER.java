@@ -1,3 +1,5 @@
+package Tree;
+
 class node{
     int key;
     Node left,right;
