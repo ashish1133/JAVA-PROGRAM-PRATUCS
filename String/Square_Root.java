@@ -1,6 +1,6 @@
-import java.io.BufferedReader;
+package String;
+
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 public class Square_Root {

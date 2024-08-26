@@ -1,3 +1,5 @@
+package String;
+
 public class find_word_in_sentence {
 
     public static void main(String[] args) {

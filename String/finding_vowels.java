@@ -1,3 +1,5 @@
+package String;
+
 public class finding_vowels {
     static boolean vowels(char ch){
         ch = Character.toUpperCase(ch);
