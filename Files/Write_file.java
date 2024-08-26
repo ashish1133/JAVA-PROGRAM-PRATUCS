@@ -1,3 +1,5 @@
+package Files;
+
 import java.io.FileWriter;
 
 public class Write_file {
