@@ -1,63 +1,61 @@
 class Node {
-    int data;
-    Node prev, next;
+    int key;
+    Node next;
+    Node prev;
 
-    Node(int d) {
-        data = d;
-        prev = null;
+    public Node(int data) {
+        key = data;
         next = null;
+        prev = null;
     }
 }
 
-class Head {
-
-    static Node insertBegin(Node head, int data) {
-
-        // Create a new node
-        Node new_node = new Node(data);
-
-        // Make next of it as head
-        new_node.next = head;
-
-        // Set previous of head as new node
-        if (head != null) {
-            head.prev = new_node;
+class Double_Linked_list {
+    // Traverse the list in reverse order starting from the tail
+    static Node rev(Node tail) {
+        Node curr = tail;
+        while (curr != null) {
+            System.out.print(curr.key + " ");
+            curr = curr.prev;
         }
-
-        // Return new node as new head
-        return new_node;
+        return null;
     }
+}
 
-    // Print the doubly linked list
-    static void printList(Node head) {
+class Linked_List {
+    // Traverse the list from the head to the tail
+    static Node search(Node head) {
         Node curr = head;
         while (curr != null) {
-            System.out.print(curr.data + " ");
+            System.out.print(curr.key + " ");
             curr = curr.next;
         }
-        System.out.println();
+        return null;
     }
+}
 
+class Main {
     public static void main(String[] args) {
+        // Create nodes
+        Node head = new Node(1);
+        Node second = new Node(2);
+        Node third = new Node(3);
+        Node fourth = new Node(4);
 
-        // Create a hardcoded doubly linked list:
-        // 2 <-> 3 <-> 4
-        Node head = new Node(2);
-        head.next = new Node(3);
-        head.next.prev = head;
-        head.next.next = new Node(4);
-        head.next.next.prev = head.next;
+        // Set next and prev pointers to form a doubly linked list
+        head.next = second;
+        second.prev = head;
+        second.next = third;
+        third.prev = second;
+        third.next = fourth;
+        fourth.prev = third;
 
-        // Print the original list
-        System.out.print("Original Linked List: ");
-        printList(head);
+        // Traverse the list from head to tail
+        System.out.print("Forward traversal: ");
+        Linked_List.search(head);
 
-        // Insert a new node at the front of the list
-        head = insertBegin(head, 1);
-
-        // Print the updated list
-        System.out.print(
-                "After inserting Node 1 at the front: ");
-        printList(head);
+        // Traverse the list from tail to head
+        System.out.print("\nReverse traversal: ");
+        Double_Linked_list.rev(fourth);
     }
 }
