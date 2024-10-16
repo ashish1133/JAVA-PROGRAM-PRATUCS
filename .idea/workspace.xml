@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c131f5-d3d3-47b4-9dac-3bc5b989bda8" name="Changes" comment="Looping">
-      <change afterPath="$PROJECT_DIR$/Arrays/Find_positive_interger_in_Array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JAVA-PROGRAM-PRATUCS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JAVA-PROGRAM-PRATUCS.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stack/Basic_Stack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +44,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Factorial.executor": "Run",
-    "Application.Linked.executor": "Run",
-    "Application.Linked_List.executor": "Run",
-    "Application.Linked_List_Searching.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Linked.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Linked_List.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Linked_List_Searching.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.Array">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22 (3)" />
