@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8c131f5-d3d3-47b4-9dac-3bc5b989bda8" name="Changes" comment="Looping">
-      <change afterPath="$PROJECT_DIR$/Stack/Basic_Stack.java" afterDir="false" />
-    </list>
+    <list default="true" id="e8c131f5-d3d3-47b4-9dac-3bc5b989bda8" name="Changes" comment="Looping" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
