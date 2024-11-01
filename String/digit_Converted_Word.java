@@ -8,7 +8,7 @@ class main{
 
         for (char digit : k.toCharArray()){
 
-            int digitValue = digit-'0';
+            int digitValue = digit -'0';
             result.append(word[digitValue]);
         }
         return result.toString();
