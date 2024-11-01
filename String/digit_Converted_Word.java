@@ -18,7 +18,7 @@ class main{
 
         int num = 312;
         String result = digitoword(num);
-        System.out.println("Digit to Word : "+result);
+        System.out.println("Digit to Word : " +result);
 
     }
 
