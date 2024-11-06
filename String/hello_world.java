@@ -5,7 +5,7 @@ public class hello_world {
 
         System.out.println("Hello World! ");
 
-        System.out.println("We are Learning java");
+
 
 
     }
