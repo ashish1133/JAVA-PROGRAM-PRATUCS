@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c131f5-d3d3-47b4-9dac-3bc5b989bda8" name="Changes" comment="String">
-      <change beforePath="$PROJECT_DIR$/String/hello_world.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/hello_world.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +44,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Factorial.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Linked.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Linked_List.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Linked_List_Searching.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Factorial.executor": "Run",
+    "Application.Linked.executor": "Run",
+    "Application.Linked_List.executor": "Run",
+    "Application.Linked_List_Searching.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/alaga/JAVA-PROGRAM-PRATUCS/String"
   }
-}</component>
-  <component name="RunManager" selected="Application.Array">
+}]]></component>
+  <component name="RunManager" selected="Application.Factorial">
     <configuration name="Array" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-22 (3)" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
